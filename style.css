@@ -1,0 +1,38 @@
+.Weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.city {
+  width: 250px;
+  height: 41px;
+  border-radius: 3px;
+  border-width: 1px solid black;
+  border: 2px solid;
+  outline-width: 0;
+  margin-bottom: -20px;
+  font-size: 21px;
+}
+.temp {
+  margin-bottom: -15px;
+  margin-top: -15px;
+}
+.cross {
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial;
+  background-color: brown;
+  color: white;
+
+  position: relative;
+  left: 100px;
+  top: -33px;
+  font-size: 25px;
+}
+.cross p {
+  margin: 0px;
+  padding: 7px 20px;
+}
